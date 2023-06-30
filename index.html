@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>MacNiaco Portafolio</title>
+</head>
+<body>
+    <!-- inicio -->
+    <section id="home" class="home">
+        <header>
+            <a href="https://www.instagram.com/macniaco/?next=%2F" class="logo">
+                <span class="barra-logo">/</span>
+                <span class="texto">MacNiaco</span>
+            </a>
+            <div class="menu" onclick="verMenu()">
+                <span>MENU</span>
+                <div class="barras">
+                    <div class="linea efecto"></div>
+                    <div class="linea"></div>
+                    <div class="linea efecto"></div>
+                </div>
+            </div>
+            <!-- Menu desplegable -->
+            <nav id="nav" class="nav-menu">
+                    <a href="#home" onclick="cerrar()">Inicio</a>
+                    <a href="#portfolio" onclick="cerrar()" >Portfolio</a>
+                    <a href="#sobremi" onclick="cerrar()">Sobre Mí</a>
+                    <a href="#habilidades" onclick="cerrar()">Habilidades</a>
+                    <a href="#testimonios" onclick="cerrar()">Testimonios</a>
+                    <a href="#educacion" onclick="cerrar()">educacion</a>
+                    <a href="#contacto" onclick="cerrar()">contacto</a>
+                   <button onclick="cerrar()"><i class="fa-solid fa-xmark"></i></button>
+            </nav>
+        </header>
+        <div class="contenido">
+            <h1>Jhojan <br>Ardila</h1>
+            <p class="descripcion">DEV Front-End <span class="color">/</span>PROD Audiovisual
+                <span class="color">/</span> </p>
+
+            <div class="redes">
+                <a href="https://www.facebook.com/jhojan.ardila.3532/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/macniaco/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/macniaco"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/macniaco/"><i class="fa-brands fa-linkedin"></i></a>    
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+    <h2 class="titulo-seccion headline load-hidden">Portfolio</h2>
+    <div class="fila">
+        <div onclick="window.open('https://macniaco.github.io/MacNiaco-Encrypter/')" class="col">
+            <div class="info">
+                <h3 class="titulo-proyecto">Macniaco Encriptador</h3>
+                <p class="descripcion-proyecto">Gracias a la enseñanza de la academia de Alura Latam y ONE-Oracle Next Education G5, pude crear mi primer proyecto, consiste en un encriptador de texto, el cual codifica el mensaje y lo decodifica</p>
+            </div>
+            <img src="img/proyecto1.jpg" alt="" class="img-proyecto">
+        </div>
+        <div onclick="window.open('proyecto2.html')" class="col">
+            <div class="info">
+                <h3 class="titulo-proyecto">Proximamente...</h3>
+                <p class="descripcion-proyecto">Proximamente...</p>
+            </div>
+            <img src="img/proyecto2.jpeg" alt="" class="img-proyecto">
+        </div>
+    </div>
+    <div class="fila">
+        <div onclick="window.open('proyecto3.html')" class="col">
+            <div class="info">
+                <h3 class="titulo-proyecto">Proximamente...</h3>
+                <p class="descripcion-proyecto">Proximamente...</p>
+            </div>
+            <img src="img/proyecto3.jpeg" alt="" class="img-proyecto">
+        </div>
+        <div onclick="window.open('proyecto4.html')" class="col">
+            <div class="info">
+                <h3 class="titulo-proyecto">Proximamente...</h3>
+                <p class="descripcion-proyecto">Proximamente...</p>
+            </div>
+            <img src="img/proyecto4.jpeg" alt="" class="img-proyecto">
+        </div>
+    </div>
+    <div class="fila">
+        <div onclick="window.open('proyecto5.html')" class="col">
+            <div class="info">
+                <h3 class="titulo-proyecto">Proximamente...</h3>
+                <p class="descripcion-proyecto">Proximamente...</p>
+            </div>
+            <img src="img/proyecto5.jpeg" alt="" class="img-proyecto">
+        </div>
+        <div onclick="window.open('proyecto6.html')" class="col">
+            <div class="info">
+                <h3 class="titulo-proyecto">Proximamente...</h3>
+                <p class="descripcion-proyecto">Proximamente...</p>
+            </div>
+            <img src="img/proyecto6.jpeg" alt="" class="img-proyecto">
+        </div>
+    </div>
+</section>
+
+    
+    <!--  SOBRE MI -->
+   <section class="sobre-mi" id="sobremi">
+        <h2 class="titulo-seccion negro">Sobre Mí</h2>
+        <h3>Soy Jhojan <span class="linea"></span></h3>
+        <h4 class="descripcion">
+            Un <a href="https://www.linkedin.com/in/macniaco/"><span class="efecto"> </span>Visual Designer</a> con sede en Medellin-colombia. Mis mayores fortalezas son el Branding, <a href="https://www.linkedin.com/in/macniaco/"><span class="efecto"> </span>Web Design</a>, Fotografía, Diseño ui/ux y  <a href="https://www.linkedin.com/in/macniaco/"><span class="efecto"> </span>Gráficos de movimientos</a>.
+        </h4>
+    </section>  
+    
+
+    <!-- HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="titulo-seccion">Habilidades</h2>
+        <div class="fila">
+            <div class="menu">
+                <ul>
+                    <li id = "1" class="selected" onclick="mostrar(this)">Branding Digital</li>
+                    <li id = "2" onclick="mostrar(this)" class="">Gráfico de Movimientos</li>
+                    <li id = "3" onclick="mostrar(this)">Diseño UI/UX</li>
+                    <li id = "4" onclick="mostrar(this)">Desarrollo Web</li>
+                </ul>
+            </div>
+            <div class="info">
+                <div class="detalle" id="info1">
+                    <div class="fila-detalle">
+                        <div class="col-detalle">
+                            <i class="fa-solid fa-truck-medical"></i>
+                            <h4>24/7 Soporte a clientes</h4>
+                            <p>Atención al cliente sin interrupciones: Soporte 24/7 para resolver tus necesidades en cualquier momento.</p>
+                        </div>
+                        <div class="col-detalle">
+                            <i class="fa-brands fa-html5"></i>
+                            <h4>Temas WP para HTML</h4>
+                            <p>Transforma tu sitio web con elegantes temas WP para HTML: Personaliza y mejora tu presencia en línea.</p>
+                        </div>
+                    </div>
+                    <div class="fila-detalle">
+                        <div class="col-detalle">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <h4>Desarrollo Mobil</h4>
+                            <p>Desarrollo móvil ágil y personalizado para crear aplicaciones innovadoras que se adaptan perfectamente a las necesidades de tus usuarios.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="detalle" id="info2">
+                    <div class="fila-detalle">
+                        <div class="col-detalle">
+                            <i class="fa-solid fa-rocket"></i>
+                            <h4>Blender y C4D</h4>
+                            <p>Desato mi creatividad en 3D con Blender y C4D: Modelado, animación y renderizado de alto nivel.</p>
+                        </div>
+                        <div class="col-detalle">
+                            <i class="fa-solid fa-barcode"></i>
+                            <h4>Unreal Engine</h4>
+                            <p>Da vida a tus ideas con Unreal Engine: Crea juegos y experiencias visuales inmersivas.</p>
+                        </div>
+                    </div>
+                    <div class="fila-detalle">
+                        <div class="col-detalle">
+                            <i class="fa-solid fa-user-secret"></i>
+                            <h4>Unity</h4>
+                            <p>Explora mundos virtuales, Crea experiencias inmersivas y juegos interactivos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="detalle" id="info3">
+                    <div class="fila-detalle">
+                        <div class="col-detalle">
+                            <i class="fa-brands fa-wordpress"></i>
+                            <h4>WordPress</h4>
+                            <p>Gestión de contenidos simplificada con WordPress: Crea y administra tu sitio web de manera fácil y eficiente.</p>
+                        </div>
+                        <div class="col-detalle">
+                            <i class="fa-brands fa-sketch"></i>
+                            <h4>Sketch</h4>
+                            <p>Diseño creativo y eficiente con Sketch: Transforma tus ideas en realidad visual.</p>
+                        </div>
+                    </div>
+                    <div class="fila-detalle">
+                        <div class="col-detalle">
+                            <i class="fa-brands fa-figma"></i>
+                            <h4>Figma</h4>
+                            <p>Diseño de alto impacto con Figma: Crea experiencias visuales cautivadoras.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="detalle" id="info4">
+                    <div class="fila-detalle">
+                        <div class="col-detalle">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <h4>CSS</h4>
+                            <p>Estilo visual cautivador con CSS: Dale vida a tus páginas web.</p>
+                        </div>
+                        <div class="col-detalle">
+                            <i class="fa-brands fa-html5"></i>
+                            <h4>HTML</h4>
+                            <p>Diseño web impactante con HTML: Transforma tu visión en realidad.</p>
+                        </div>
+                    </div>
+                    <div class="fila-detalle">
+                        <div class="col-detalle">
+                            <i class="fa-brands fa-react"></i>
+                            <h4>React</h4>
+                            <p>React: Potencia con interfaces web modernas y dinámicas, ofreciendo una experiencia interactiva y atractiva para tus clientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios" id="testimonios">
+        <h2 class="titulo-seccion">Testimonios</h2>
+        <div class="division">
+            <div class="col col1">
+            </div>
+            <div class="col col2">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="titulo">
+               <h3>Mis <br> Clientes <span class="linea"></span></h3>
+            </div>
+            <div class="cliente">
+                <div class="contenedor-img">
+                    <img src="img/cliente1.png" alt="" id="imgCliente">
+                </div>
+                <button class="siguiente" onclick="siguiente()">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="opinion">
+                <h3 id="tituloCliente">Gran Trabajo!!!</h3>
+                <p id="txtCliente">El tiempo de la entrega se cumplio, los parameros visuales y tecnicos cumplieron con lo esperado y la asesoria fue muy buena, se recomienda bastante.</p>
+                <h4 id="nombreCliente">Natalia Ochoa.</h4>
+                <p id="puestoCliente">Fundadora Divinas uñas Spa</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- educacion -->
+
+    <section class="educacion" id="educacion">
+        <h2 class="titulo-seccion negro">Educación</h2>
+        <div class="imagenes-container">
+            <img src="img/aluraoracle.png" alt="Logo alura">
+            <img src="img/logo_instituto_Ferrini-1.png" alt="">
+        </div>
+        <h3>Mi formación escolar la cursé en el instituto Ferrini. Al finalizar, fui seleccionado para el programa ONE-Oracle Next Education G5 de Alura Latam con especialización en Front End, y gracias a esta academia, me introduje en el fabuloso mundo de la programación.</h3>
+    </section>
+
+    <!-- contacto -->
+    
+    <section class="contacto" id="contacto">
+        <h2 class="titulo-contacto">Contacto</h2>
+        <div class="contact_form">
+            <div class="formulario">
+                <h1 class="punterooo">Formulario de contacto</h1>
+                <h3 class="felizzz">Escríbenos y en breve nos pondremos en contacto contigo</h3>
+                <form id="formulario-contacto" action="submeter-formulario.php" method="post">
+                    <div class="clasep">
+                        <p>
+                            <div class="lobel1">
+                                <label for="nombre" class="colocar_nombre">Nombre
+                                    <div class="spanclass">
+                                        <span class="obligatorio">*</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <input class="webinput" type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+                    </div>
+                    <div class="clasep">
+                        <p>
+                            <div class="lobel1">
+                                <label for="email" class="colocar_email">Email
+                                    <div class="spanclass">
+                                        <span class="obligatorio">*</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <input class="webinput" type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>
+                    </div>
+                    <div class="clasep">
+                        <p>
+                            <div class="lobel1">
+                                <label for="telefono" class="colocar_telefono">Teléfono
+                                </label>
+                            </div>
+                            <input class="webinput" type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        </p>
+                    </div>
+                    <div class="clasep">
+                        <p>
+                            <div class="lobel1">
+                                <label for="website" class="colocar_website">Sitio web
+                                </label>
+                            </div>
+                            <input class="webinput" type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                        </p>
+                    </div>
+                    <div class="clasep">
+                        <p>
+                            <label for="asunto" class="colocar_asunto">Asunto
+                                <div class="spanclass">
+                                    <span class="obligatorio">*</span>
+                                </div>
+                            </label>
+                            <input class="webinput" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto">
+                        </p>
+                    </div>
+                    <p class="clasep">
+                        <div class="lobel1">
+                            <label for="mensaje" class="colocar_mensaje">Mensaje
+                                <div class="spanclass">
+                                    <span class="obligatorio">*</span>
+                                </div>
+                            </label>
+                        </div>
+                        <textarea class="textarea" name="introducir_mensaje" id="mensaje" required="obligatorio" placeholder="Escribe tu mensaje"></textarea>
+                    </p>
+                    <button class="contactoboton" type="submit" name="enviar_formulario" id="enviar">Enviar</button>
+                    <p class="alertaaa">
+                        <div class="spanclass">
+                            <span class="obligatorio">*</span>
+                        </div>
+                        Los campos marcados con (*) son obligatorios.
+                    </p>
+                </form>
+            </div>
+        </div>
+    
+
+    <!-- footer -->
+    
+    <section class="footer">
+        <p class="footertext">página creada por Jhojan Ardila - © Derechos reservados -2023 </p>
+    </section>
+
+
+
+      
+      
+      
+      
+    
+
+<!--  scrip's js -->
+
+    <script src="app.js"></script>
+    <script src="validacion.js"></script>
+
+</body>
+</html>
